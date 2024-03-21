@@ -1,3 +1,4 @@
+
 // ==========================================
 // AN OLDER WAY OF ADDING DEFAULT PARAM VALUE
 // ==========================================
@@ -16,7 +17,6 @@ function rollDie(numSides = 6) {
     return Math.floor(Math.random() * numSides) + 1
 }
 
-function greet(person, msg = "Hey there", punc = '!') {
-    console.log(`${msg}, ${person}${punc}`)
+function greet(person, msg = "Hi", punc = "!"){
+    console.log(`${msg}, ${person} ${punc}`)
 }
-
